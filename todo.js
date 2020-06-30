@@ -16,7 +16,7 @@ function addItem() {
     ul = document.getElementById('list');
     var textnode = document.createTextNode(item)
 
-    if (item === '') {
+    if (item === '' || item == 0) {
         var h3 = document.createElement('h3');
         h3.textContent = "Enter ToDo First!!!!";
         h3.setAttribute('id', 'h3heading');
