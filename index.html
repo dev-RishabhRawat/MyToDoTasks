@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <title>Simple todo application</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="controls">
+            <h1 id="heading">My Awesome TODO</h1>
+            <input type="text" id="input" placeholder="Write ToDo Here........"><br>
+            <button type="button" id="add">Add TODO</button>
+            <button type="button" id="remove">Remove Done TODO</button>
+            <button type="button" id="delete">Remove All TODO</button>
+        </div>
+        <ul id="list">
+            <li class="mycheck"><input type="checkbox" checked id="check">
+                <label>Go to gym</label>
+            </li>
+            <li class="mycheck">
+                <input type="checkbox" id="check" checked>
+                <label>live Class</label>
+            </li>
+            <li class="mycheck">
+                <input type="checkbox" id="check">
+                <label>AKTU Webinar</label>
+            </li>
+            <li class="mycheck">
+                <input type="checkbox" id="check">
+                <label>learn react.js</label>
+            </li>
+        </ul>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+
+</html>
